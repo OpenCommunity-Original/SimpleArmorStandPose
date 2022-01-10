@@ -8,12 +8,10 @@ public final class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         Bukkit.getPluginManager().registerEvents(new ArmorStand(this), this);
-
-        getLogger().info("Started up!");
     }
 
     @Override
     public void onDisable() {
-        getLogger().info("Disabled up!");
+
     }
 }
