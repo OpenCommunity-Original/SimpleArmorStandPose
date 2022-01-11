@@ -1,8 +1,9 @@
-package net.simple.armor.stand.pose;
+package net.simple.armor.stand.pose.lang;
 
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.TextComponent;
 import net.kyori.adventure.util.UTF8ResourceBundleControl;
+import net.md_5.bungee.api.ChatMessageType;
 import org.jetbrains.annotations.PropertyKey;
 
 import java.util.MissingFormatArgumentException;
